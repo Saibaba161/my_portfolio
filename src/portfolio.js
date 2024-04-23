@@ -24,8 +24,8 @@ const greeting = {
   nickname: "Raghuvaran",
   subTitle: "A passionate individual who always thrives to make a difference.",
   resumeLink:
-    "https://drive.google.com/file/d/1H1b3awamlF0KCRmdeszLSxYNxicySMB0/view?usp=drive_link",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+    "https://drive.google.com/file/d/1vfSOjj8UM0wDkO6Q51II3KNMIsnc1UXY/view?usp=sharing",
+  portfolio_repository: "https://github.com/Saibaba161/Portfolio",
   githubProfile: "https://github.com/Saibaba161",
 };
 
