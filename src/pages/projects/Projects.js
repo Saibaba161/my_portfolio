@@ -23,6 +23,7 @@ class Projects extends Component {
       <div className="projects-main">
         <Header theme={theme} />
         {/* Deployments Section */}
+        
         <div className="deployments-section">
           <div className="deployments-card">
             <div className="deployments-content">

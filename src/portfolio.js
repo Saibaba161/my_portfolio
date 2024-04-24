@@ -279,7 +279,8 @@ const deployments = {
   links: [
     {
       title: 'Task Master',
-      link: 'https://taskmaster-frontend-zeta.vercel.app/login'
+      link: 'https://taskmaster-frontend-zeta.vercel.app/login',
+      image_path: 'taskmaster.jpg'
     },
     {
       title: 'Weather Application',
