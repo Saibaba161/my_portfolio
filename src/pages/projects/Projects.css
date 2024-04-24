@@ -160,5 +160,6 @@
 
 .deployments-content button{
   background-color: teal;
-  border-style: double;
+  border-style: none;
+  width: 50px;
 }
