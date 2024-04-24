@@ -233,6 +233,31 @@ const experience = {
 };
 
 // Projects Page
+const projects = {
+  data: [
+    {
+      title: 'Task Master',
+      description: 'Task Master is an application that allows the users to create tasks, add deadlines, and even edit the data.',
+      image_path: 'taskmaster.png',
+      github_link: 'https://github.com/Saibaba161/TaskMaster',
+      demo_link: 'https://taskmaster-frontend-zeta.vercel.app/login'
+    },
+    {
+      title: 'Weather Application',
+      description: 'The user can get the information of the weather details of any place on Earth.',
+      image_path: 'weather.png',
+      github_link: 'https://github.com/Saibaba161/weather_api',
+      demo_link: 'https://weather-api-ten-beryl.vercel.app/'
+    },
+    {
+      title: 'Movierulz Clone',
+      description: 'The user can get the information of any movie or TV series and also the user can know what is trending currently.',
+      image_path: 'movierulz_clone.png',
+      github_link: 'https://github.com/Saibaba161/movierulz_clone',
+      demo_link: 'https://movierulz-clone-1lbr.vercel.app/'
+    }
+  ]
+}
 const projectsHeader = {
   title: "Projects",
   description:
@@ -249,6 +274,29 @@ const publicationsHeader = {
 const publications = {
   data: [],
 };
+
+const deployments = {
+  links: [
+    {
+      title: 'Task Master',
+      link: 'https://taskmaster-frontend-zeta.vercel.app/login'
+    },
+    {
+      title: 'Weather Application',
+      link: 'https://weather-api-ten-beryl.vercel.app/'
+    },
+    {
+      title: 'Movierulz Clone',
+      link: 'https://movierulz-clone-1lbr.vercel.app/'
+    }
+  ]
+}
+
+const projectsPageData = {
+  deployments,
+  projectsHeader,
+  projects
+}
 
 // Contact Page
 const contactPageData = {
@@ -291,4 +339,5 @@ export {
   publicationsHeader,
   publications,
   contactPageData,
+  projectsPageData
 };

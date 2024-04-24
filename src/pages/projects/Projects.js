@@ -22,14 +22,26 @@ class Projects extends Component {
     return (
       <div className="projects-main">
         <Header theme={theme} />
+        {/* Deployments Section */}
+        <div className="deployments-section">
+          <p>Deployments:</p>
+          <ul>
+            <li>
+              <a href="https://taskmaster-frontend-zeta.vercel.app/login" target="_blank" rel="nopener noreferrer">Task Master</a>
+            </li>
+            <li>
+              <a href="https://weather-api-ten-beryl.vercel.app/" target="_blank" rel="nopener noreferrer">Weather Application</a>
+            </li>
+            <li>
+              <a href="https://movierulz-clone-1lbr.vercel.app/" target="_blank" rel="nopener noreferrer">Movierulz Clone</a>
+            </li>
+          </ul>
+        </div>
+
         <div className="basic-projects">
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
-                {/* <img
-											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
-											alt=""
-										/> */}
                 <ProjectsImg theme={theme} />
               </div>
               <div className="projects-heading-text-div">
