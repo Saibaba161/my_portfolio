@@ -234,7 +234,6 @@ const experience = {
 
 // Projects Page
 const projects = {
-  title: Deployments,
   data: [
     {
       title: 'Task Master',
