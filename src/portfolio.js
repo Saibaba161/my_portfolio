@@ -238,21 +238,21 @@ const projects = {
     {
       title: 'Task Master',
       description: 'Task Master is an application that allows the users to create tasks, add deadlines, and even edit the data.',
-      image_path: 'taskmaster.img',
+      image_path: 'taskmaster.jpg',
       github_link: 'https://github.com/Saibaba161/TaskMaster',
       demo_link: 'https://taskmaster-frontend-zeta.vercel.app/login'
     },
     {
       title: 'Weather Application',
       description: 'The user can get the information of the weather details of any place on Earth.',
-      image_path: 'weather.img',
+      image_path: 'weather.jpg',
       github_link: 'https://github.com/Saibaba161/weather_api',
       demo_link: 'https://weather-api-ten-beryl.vercel.app/'
     },
     {
       title: 'Movierulz Clone',
       description: 'The user can get the information of any movie or TV series and also the user can know what is trending currently.',
-      image_path: 'movierulz_clone.img',
+      image_path: 'movierulz_clone.jpg',
       github_link: 'https://github.com/Saibaba161/movierulz_clone',
       demo_link: 'https://movierulz-clone-1lbr.vercel.app/'
     }
