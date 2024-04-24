@@ -27,13 +27,13 @@ class Projects extends Component {
           <p>Deployments:</p>
           <ul>
             <li>
-              <a href="https://taskmaster-frontend-zeta.vercel.app/login" target="_blank" rel="nopener noreferrer">Task Master</a>
+              <a href="https://taskmaster-frontend-zeta.vercel.app/login" target="_blank" rel="noopener noreferrer">Task Master</a>
             </li>
             <li>
-              <a href="https://weather-api-ten-beryl.vercel.app/" target="_blank" rel="nopener noreferrer">Weather Application</a>
+              <a href="https://weather-api-ten-beryl.vercel.app/" target="_blank" rel="noopener noreferrer">Weather Application</a>
             </li>
             <li>
-              <a href="https://movierulz-clone-1lbr.vercel.app/" target="_blank" rel="nopener noreferrer">Movierulz Clone</a>
+              <a href="https://movierulz-clone-1lbr.vercel.app/" target="_blank" rel="noopener noreferrer">Movierulz Clone</a>
             </li>
           </ul>
         </div>
