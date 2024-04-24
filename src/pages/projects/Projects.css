@@ -141,6 +141,7 @@
 
 .deployments-content {
   padding: 20px;
+  height: 200px;
 }
 
 .deployments-content h3 {
@@ -160,7 +161,7 @@
 
 
 .deployments-content button{
-  background-color: rgb(189, 236, 236);
+  background-color: rgb(209, 244, 244);
   border-style: none;
   width: 250px;
   color: white;
