@@ -92,7 +92,10 @@
     font-size: 30px;
     margin-top: 20px;
   }
-
+  
+  .deployments-section .deployments-heading-text {
+    align-items: flex-start;
+  }
   .projects-heading-sub-text {
     font-size: 20px;
   }
@@ -174,5 +177,5 @@
 }
 
 .deployments-content button:hover{
-  background-color: #00796b
+  background-color: #46e6d4
 }
