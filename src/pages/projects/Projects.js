@@ -38,7 +38,7 @@ class Projects extends Component {
               
             <div className="bg-img"><img src="taskmaster.jpg" alt=""/></div>
               <h3> TaskMaster </h3>
-              <p>TaskMaster description</p>
+              <p>Allows the user to manage their tasks by allowing them to set deadlines for their tasks and even edit the info after</p>
               <a href="https://taskmaster-frontend-zeta.vercel.app/login" target="_blank" rel="noopener noreferrer"><button className="view-deployment" title="https://taskmaster-frontend-zeta.vercel.app/login">View Deployment</button></a>
             </div>
           </div>
@@ -46,7 +46,7 @@ class Projects extends Component {
           <div className="deployments-content">
             <img src="weather.jpg" alt=""/>
               <h3> Weather Application </h3>
-              <p>Weather App description</p>
+              <p>The user can get the Weather information of any location at a given time</p>
               <a href="https://weather-api-ten-beryl.vercel.app/" target="_blank" rel="noopener noreferrer"><button>View Deployment</button></a>
             </div>
           </div>
@@ -54,7 +54,7 @@ class Projects extends Component {
           <div className="deployments-content">
             <img src="movierulz_clone.jpg" alt="" />
               <h3> Movierulz Clone </h3>
-              <p>Clone description</p>
+              <p>User can access the information about any movie or TV series. The trending functionality renders what is trending right now</p>
               <a href="https://movierulz-clone-1lbr.vercel.app/" target="_blank" rel="noopener noreferrer"><button>View Deployment</button></a>
             </div>
           </div>

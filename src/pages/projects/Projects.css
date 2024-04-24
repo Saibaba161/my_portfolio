@@ -142,6 +142,7 @@
 .deployments-content {
   padding: 20px;
   height: 200px;
+  background-color: #00796b;
 }
 
 .deployments-content h3 {
@@ -164,7 +165,7 @@
   background-color: rgb(209, 244, 244);
   border-style: none;
   width: 250px;
-  color: white;
+  color: black;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
