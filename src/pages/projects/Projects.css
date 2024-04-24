@@ -156,3 +156,8 @@
   height: auto;
   border-radius: 10px 10px 0 0;
 }
+
+.deployments-content .button{
+  background-color: teal;
+  border-style: inset;
+}
