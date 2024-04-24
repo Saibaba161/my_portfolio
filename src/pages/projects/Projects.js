@@ -31,11 +31,11 @@ class Projects extends Component {
         >
             {deploymentsHeader.title}
         </h1>
-        
+
         <div className="deployments-section">
           <div className="deployments-card">
             <div className="deployments-content">
-            <img src="taskmaster.jpg" alt=""/>
+            <div className="bg-img"><img src="taskmaster.jpg" alt=""/></div>
               <h3> TaskMaster </h3>
               <p>TaskMaster description</p>
               <a href="https://taskmaster-frontend-zeta.vercel.app/login" target="_blank" rel="noopener noreferrer"><button>View Deployment</button></a>

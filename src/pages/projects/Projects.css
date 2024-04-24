@@ -158,8 +158,21 @@
   border-radius: 10px 10px 0 0;
 }
 
+.deployments-card {
+  background-image:var(bg-img);
+}
+
 .deployments-content button{
   background-color: teal;
   border-style: none;
-  width: 50px;
+  width: 100px;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.deployments-content button:hover{
+  background-color: #00796b
 }
