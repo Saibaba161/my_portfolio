@@ -25,24 +25,24 @@ class Projects extends Component {
         {/* Deployments Section */}
         <div className="deployments-section">
           <div className="deployments-card">
-            <img src="taskmaster.jpg" alt=""/>
             <div className="deployments-content">
+            <img src="taskmaster.jpg" alt=""/>
               <h3> TaskMaster </h3>
               <p>TaskMaster description</p>
               <a href="https://taskmaster-frontend-zeta.vercel.app/login" target="_blank" rel="noopener noreferrer">View Deployment</a>
             </div>
           </div>
           <div className="deployments-card">
+          <div className="deployments-content">
             <img src="weather.jpg" alt=""/>
-            <div className="deployments-content">
               <h3> Weather Application </h3>
               <p>Weather App description</p>
               <a href="https://weather-api-ten-beryl.vercel.app/" target="_blank" rel="noopener noreferrer">View Deployment</a>
             </div>
           </div>
           <div className="deployments-card">
+          <div className="deployments-content">
             <img src="movierulz_clone.jpg" alt="" />
-            <div className="deployments-content">
               <h3> Movierulz Clone </h3>
               <p>Clone description</p>
               <a href="https://movierulz-clone-1lbr.vercel.app/" target="_blank" rel="noopener noreferrer">View Deployment</a>

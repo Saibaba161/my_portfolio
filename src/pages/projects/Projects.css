@@ -115,70 +115,44 @@
     margin-top: 30px;
   }
 }
-
 .deployments-section {
-  background-color: white; /* Set background color */
-  padding: 20px; /* Add padding for spacing */
-  border-radius: 8px; /* Add border radius for rounded corners */
-}
-
-.deployments-section p {
-  margin-bottom: 10px; /* Add margin to separate paragraph from links */
-}
-
-.deployments-section ul {
-  list-style-type: none; /* Remove default list styling */
-}
-
-.deployments-section ul li {
-  margin-bottom: 5px; /* Add margin between each link */
-}
-
-.deployments-section ul li a {
-  color: #333; /* Set link color */
-  text-decoration: none; /* Remove underline from links */
-  transition: color 0.3s ease; /* Add transition for smooth color change */
-}
-
-.deployments-section ul li a:hover {
-  color: #007bff; /* Change link color on hover */
-}
-
-.deployments-section {
-  display: flex; /* Use flexbox for layout */
-  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
-  justify-content: space-between; /* Distribute items evenly along the main axis */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .deployments-card {
-  display: inline-block; /* Ensure deployments appear on the same line */
-  width: 200px; /* Adjust width as needed */
-  height: 200px; /* Adjust height as needed */
-  margin: 10px; /* Add margin for spacing */
-  border-radius: 8px; /* Add border radius for rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
-  transition: box-shadow 0.3s ease; /* Add transition for smooth hover effect */
-  background-color:aqua;
+  width: calc(33.33% - 20px);
+  margin-bottom: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .deployments-card:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
-}
-
-.deployments-card img {
-  width: 100%; /* Make image fill the card horizontally */
-  height: auto; /* Maintain aspect ratio */
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .deployments-content {
-  padding: 15px; /* Add padding for content */
+  padding: 20px;
 }
 
 .deployments-content h3 {
-  margin-top: 0; /* Remove margin from top of heading */
-  margin-bottom: 10px; /* Add margin at the bottom of heading */
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .deployments-content p {
-  margin: 0; /* Remove default margins */
+  margin: 0;
+}
+
+.deployments-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
 }
