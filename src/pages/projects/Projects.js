@@ -29,7 +29,7 @@ class Projects extends Component {
             <div className="deployments-content">
               <h3> TaskMaster </h3>
               <p>TaskMaster description</p>
-              <a href="https://taskmaster-frontend-zeta.vercel.app/login" target="_blank">View Deployment</a>
+              <a href="https://taskmaster-frontend-zeta.vercel.app/login" target="_blank" rel="noopener noreferrer">View Deployment</a>
             </div>
           </div>
           <div className="deployments-card">
@@ -37,7 +37,7 @@ class Projects extends Component {
             <div className="deployments-content">
               <h3> Weather Application </h3>
               <p>Weather App description</p>
-              <a href="https://weather-api-ten-beryl.vercel.app/" target="_blank">View Deployment</a>
+              <a href="https://weather-api-ten-beryl.vercel.app/" target="_blank" rel="noopener noreferrer">View Deployment</a>
             </div>
           </div>
           <div className="deployments-card">
@@ -45,7 +45,7 @@ class Projects extends Component {
             <div className="deployments-content">
               <h3> Movierulz Clone </h3>
               <p>Clone description</p>
-              <a href="https://movierulz-clone-1lbr.vercel.app/" target="_blank">View Deployment</a>
+              <a href="https://movierulz-clone-1lbr.vercel.app/" target="_blank" rel="noopener noreferrer">View Deployment</a>
             </div>
           </div>
         </div>
