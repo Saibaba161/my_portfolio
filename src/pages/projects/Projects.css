@@ -159,13 +159,25 @@
 }
 
 .deployments-card {
-  background-image:var(bg-img);
+  background-image:url('./sai_animated.png');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .deployments-content button{
   background-color: teal;
   border-style: none;
-  width: 100px;
+  width: 250px;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;

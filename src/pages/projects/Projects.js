@@ -35,10 +35,11 @@ class Projects extends Component {
         <div className="deployments-section">
           <div className="deployments-card">
             <div className="deployments-content">
+              
             <div className="bg-img"><img src="taskmaster.jpg" alt=""/></div>
               <h3> TaskMaster </h3>
               <p>TaskMaster description</p>
-              <a href="https://taskmaster-frontend-zeta.vercel.app/login" target="_blank" rel="noopener noreferrer"><button>View Deployment</button></a>
+              <a href="https://taskmaster-frontend-zeta.vercel.app/login" target="_blank" rel="noopener noreferrer"><button className="view-deployment" title="https://taskmaster-frontend-zeta.vercel.app/login">View Deployment</button></a>
             </div>
           </div>
           <div className="deployments-card">
