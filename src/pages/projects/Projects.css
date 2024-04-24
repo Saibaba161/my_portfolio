@@ -115,3 +115,31 @@
     margin-top: 30px;
   }
 }
+
+.deployments-section {
+  background-color: #f4f4f4; /* Set background color */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 8px; /* Add border radius for rounded corners */
+}
+
+.deployments-section p {
+  margin-bottom: 10px; /* Add margin to separate paragraph from links */
+}
+
+.deployments-section ul {
+  list-style-type: none; /* Remove default list styling */
+}
+
+.deployments-section ul li {
+  margin-bottom: 5px; /* Add margin between each link */
+}
+
+.deployments-section ul li a {
+  color: #333; /* Set link color */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.deployments-section ul li a:hover {
+  color: #007bff; /* Change link color on hover */
+}
