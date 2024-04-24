@@ -87,7 +87,8 @@
 
 @media (max-width: 768px) {
   .projects-heading-text,
-  .publications-heading-text {
+  .publications-heading-text,
+  .deployments-card .deployments-heading-text {
     font-size: 30px;
     margin-top: 20px;
   }

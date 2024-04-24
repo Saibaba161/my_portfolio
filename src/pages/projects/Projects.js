@@ -11,6 +11,7 @@ import {
   projectsHeader,
   publicationsHeader,
   publications,
+  deploymentsHeader,
 } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
@@ -26,6 +27,12 @@ class Projects extends Component {
         
         <div className="deployments-section">
           <div className="deployments-card">
+            <h1
+                  className="deployments-heading-text"
+                  style={{ color: theme.text }}
+            >
+                  {deploymentsHeader.title}
+            </h1>
             <div className="deployments-content">
             <img src="taskmaster.jpg" alt=""/>
               <h3> TaskMaster </h3>

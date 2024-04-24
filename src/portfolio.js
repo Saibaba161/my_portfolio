@@ -265,6 +265,11 @@ const projectsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
+const deploymentsHeader = {
+  title: "Deployments",
+  description: "I started contributing to open source recently. I have deployed some of my projects too. Check them out here."
+}
+
 const publicationsHeader = {
   title: "Publications",
   description: "Some of my published Articles, Blogs and Research.",
@@ -340,5 +345,6 @@ export {
   publicationsHeader,
   publications,
   contactPageData,
-  projectsPageData
+  projectsPageData,
+  deploymentsHeader
 };
