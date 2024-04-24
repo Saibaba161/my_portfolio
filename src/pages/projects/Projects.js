@@ -24,18 +24,30 @@ class Projects extends Component {
         <Header theme={theme} />
         {/* Deployments Section */}
         <div className="deployments-section">
-          <p>Deployments:</p>
-          <ul>
-            <li>
-              <a href="https://taskmaster-frontend-zeta.vercel.app/login" target="_blank" rel="noopener noreferrer">Task Master</a>
-            </li>
-            <li>
-              <a href="https://weather-api-ten-beryl.vercel.app/" target="_blank" rel="noopener noreferrer">Weather Application</a>
-            </li>
-            <li>
-              <a href="https://movierulz-clone-1lbr.vercel.app/" target="_blank" rel="noopener noreferrer">Movierulz Clone</a>
-            </li>
-          </ul>
+          <div className="deployments-card">
+            <img src="taskmaster.png" alt ="Preview Image" />
+            <div className="deployments-content">
+              <h3> TaskMaster </h3>
+              <p>TaskMaster description</p>
+              <a href="https://taskmaster-frontend-zeta.vercel.app/login" target="_blank">View Deployment</a>
+            </div>
+          </div>
+          <div className="deployments-card">
+            <img src="weather.png" alt ="Preview Image" />
+            <div className="deployments-content">
+              <h3> Weather Application </h3>
+              <p>Weather App description</p>
+              <a href="https://weather-api-ten-beryl.vercel.app/" target="_blank">View Deployment</a>
+            </div>
+          </div>
+          <div className="deployments-card">
+            <img src="movierulz_clone.png" alt ="Preview Image" />
+            <div className="deployments-content">
+              <h3> Movierulz Clone </h3>
+              <p>Clone description</p>
+              <a href="https://movierulz-clone-1lbr.vercel.app/" target="_blank">View Deployment</a>
+            </div>
+          </div>
         </div>
 
         <div className="basic-projects">
