@@ -30,7 +30,7 @@ class Projects extends Component {
             <img src="taskmaster.jpg" alt=""/>
               <h3> TaskMaster </h3>
               <p>TaskMaster description</p>
-              <a href="https://taskmaster-frontend-zeta.vercel.app/login" target="_blank" rel="noopener noreferrer">View Deployment</a>
+              <button><a href="https://taskmaster-frontend-zeta.vercel.app/login" target="_blank" rel="noopener noreferrer">View Deployment</a></button>
             </div>
           </div>
           <div className="deployments-card">
@@ -38,7 +38,7 @@ class Projects extends Component {
             <img src="weather.jpg" alt=""/>
               <h3> Weather Application </h3>
               <p>Weather App description</p>
-              <a href="https://weather-api-ten-beryl.vercel.app/" target="_blank" rel="noopener noreferrer">View Deployment</a>
+              <button><a href="https://weather-api-ten-beryl.vercel.app/" target="_blank" rel="noopener noreferrer">View Deployment</a></button>
             </div>
           </div>
           <div className="deployments-card">
@@ -46,7 +46,7 @@ class Projects extends Component {
             <img src="movierulz_clone.jpg" alt="" />
               <h3> Movierulz Clone </h3>
               <p>Clone description</p>
-              <a href="https://movierulz-clone-1lbr.vercel.app/" target="_blank" rel="noopener noreferrer">View Deployment</a>
+              <button><a href="https://movierulz-clone-1lbr.vercel.app/" target="_blank" rel="noopener noreferrer">View Deployment</a></button>
             </div>
           </div>
         </div>
