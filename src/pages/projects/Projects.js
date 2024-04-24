@@ -25,13 +25,14 @@ class Projects extends Component {
         <Header theme={theme} />
         {/* Deployments Section */}
         
+        <h1
+            className="deployments-heading-text"
+            style={{ color: theme.text }}
+        >
+            {deploymentsHeader.title}
+        </h1>
+        
         <div className="deployments-section">
-                <h1
-                  className="deployments-heading-text"
-                  style={{ color: theme.text }}
-                >
-                  {deploymentsHeader.title}
-                </h1>
           <div className="deployments-card">
             <div className="deployments-content">
             <img src="taskmaster.jpg" alt=""/>
