@@ -25,7 +25,7 @@ class Projects extends Component {
         {/* Deployments Section */}
         <div className="deployments-section">
           <div className="deployments-card">
-            <img src="taskmaster.png" />
+            <img src="taskmaster.jpg" alt=""/>
             <div className="deployments-content">
               <h3> TaskMaster </h3>
               <p>TaskMaster description</p>
@@ -33,7 +33,7 @@ class Projects extends Component {
             </div>
           </div>
           <div className="deployments-card">
-            <img src="weather.png" />
+            <img src="weather.jpg" alt=""/>
             <div className="deployments-content">
               <h3> Weather Application </h3>
               <p>Weather App description</p>
@@ -41,7 +41,7 @@ class Projects extends Component {
             </div>
           </div>
           <div className="deployments-card">
-            <img src="movierulz_clone.png" />
+            <img src="movierulz_clone.jpg" alt="" />
             <div className="deployments-content">
               <h3> Movierulz Clone </h3>
               <p>Clone description</p>
