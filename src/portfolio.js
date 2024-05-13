@@ -143,6 +143,22 @@ const skills = {
             color: "#47A248",
           },
         },
+
+        {
+          skillName: "Material UI",
+          fontAwesomeClassname: "logos:material-ui",
+          style: {
+            color: "#47A248",
+          },
+        },
+
+        {
+          skillName: "Postman",
+          fontAwesomeClassname: "logos:postman-icon",
+          style: {
+            color: "#47A248",
+          },
+        },
       ],
     },
   ],
